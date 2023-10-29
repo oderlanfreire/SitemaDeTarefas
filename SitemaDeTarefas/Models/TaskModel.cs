@@ -1,4 +1,6 @@
-﻿namespace SitemaDeTarefas.Models
+﻿using SitemaDeTarefas.Enums;
+
+namespace SitemaDeTarefas.Models
 {
     public class TaskModel
     {
@@ -8,6 +10,6 @@
 
         public string? Description { get; set; }
 
-        public int Status { get; set; }
+        public StatusTask Status { get; set; }
     }
 }
